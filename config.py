@@ -7,8 +7,8 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID","))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID","11792103"))
+API_HASH = getenv("API_HASH","5a03ee0c82de3e8972dd46a66e039b01")
 
 BOT_TOKEN = getenv("BOT_TOKEN")
 
@@ -16,7 +16,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://Arunhald01:ARUNHALD@cluster0
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᴀɴᴏɴ ダ ᴍᴜsɪᴄ")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "1356469075").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "868753606").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
@@ -28,10 +28,10 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Smartaruney_143")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Tamilchat_tgk")
 
-SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
+SUPPORT_HEHE = SUPPORT_GROUP.split("https://t.me/Tamilchat_tgk")[1]
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "180"))
-SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "500"))
+SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "1080"))
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 AUTO_LEAVE_ASSISTANT_TIME = int(
