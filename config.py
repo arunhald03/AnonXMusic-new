@@ -7,14 +7,14 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID","11792103"))
-API_HASH = getenv("API_HASH","5a03ee0c82de3e8972dd46a66e039b01")
+API_ID = int(getenv("API_ID","28513073"))
+API_HASH = getenv("API_HASH","726546a312f304da04a0e9b682db2abc")
 
 BOT_TOKEN = getenv("BOT_TOKEN")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://Arunhald01:ARUNHALD@cluster0.8f0k3hl.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://Arunhald01:ARUNHALD@cluster0.8f0k3hl.mongodb.net/?retryWrites")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᴀɴᴏɴ ダ ᴍᴜsɪᴄ")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "🎀💙◉✿♛[ 🇲𝐑.🇦𝙍𝙐𝙉 👻 ]♛✿◉💙😍🎀")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "868753606").split()))
 
@@ -58,7 +58,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION","BQB2j1aCSsCFdPJvW49BHNYMMunxYWCpAEwL3q2hZsO236rXDLzFlTTTQYpBGKQSA-87r-KrFXrleanDejMUmuEnUZgotiY3SOl7vObMjOsjpQ8WPUpaVX5RKpL6esxiNTlJ9oSUXVBNz7wVKX_vVFGjkp3B81KSIyZNjzh_6ZGIBdcyzn-5y3GWKBJL3qN1xSTccAKOudqs6-yFg24hGaD4BIv5aC-UL_1lDbEypzyGMw5HHSqHNK5HP6b9dumbIz5joN_srF727VsgGwjnab20gmaRmAStlCwbMTgITa9jx_5Pe7NyDFujiBUJdD7xtDI_Er2eFh5OBn1ASsacqi6pAAAAAS2xfIAA")
+STRING1 = getenv("STRING_SESSION","BQCz-j3KawNRdysRvxZpd19XAx1v2vmDO1WMfRO1WNuUcAb_lX4aKBmoXllj4UnRBHoY_pgozsVIf2dRayd-YpXWXUcioOHD1G9YfanbEGAFx3N7nK7SxHpMKlLX7Iyy6wp_w34PvHx9CWOPWku8Mz4CwX2doty6WmRtdk53hqvY_zhdWskd68J70G9Gk-fUDU4zcywMGB4d6sdX0FGqmKB3GBrOVjZDDSiQ6nfDSky1JvGgR0LrY2w1reg_eBTJpbNQ8rXH15lt_W1DkUUgtNnZVQ0YPE3PWi-slRsX9hzwPSwt8EqAMFvsfIIaHnjjUBpcrVhm2VfE2c31eddyQlAAAAAT8-5rUA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
